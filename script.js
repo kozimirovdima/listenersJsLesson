@@ -1,12 +1,12 @@
 "use script";
-let inputText = document.querySelector("#text");
-let square = document.querySelector("#square");
-let btn = document.querySelector("#btn");
-let eBtn = document.querySelector("#e_btn");
-let inputRange = document.querySelector("#range");
-let circle = document.querySelector("#circle");
-let range_span = document.querySelector("#range-span");
-let range = document.querySelector("#range");
+const inputText = document.querySelector("#text");
+const square = document.querySelector("#square");
+const btn = document.querySelector("#btn");
+const eBtn = document.querySelector("#e_btn");
+const inputRange = document.querySelector("#range");
+const circle = document.querySelector("#circle");
+const range_span = document.querySelector("#range-span");
+const range = document.querySelector("#range");
 console.log(range_span);
 console.log(square);
 console.log(circle);
@@ -14,7 +14,7 @@ console.log(circle);
 let chancheColor = function () {
   console.log("123:");
   console.log(inputText.value);
-  let a = inputText.value;
+  const a = inputText.value;
   square.style.backgroundColor = a;
 };
 btn.addEventListener("click", function () {
