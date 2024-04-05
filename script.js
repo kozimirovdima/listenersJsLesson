@@ -11,7 +11,7 @@ console.log(range_span);
 console.log(square);
 console.log(circle);
 // Задание 1
-let chancheColor = function () {
+const chancheColor = function () {
   console.log("123:");
   console.log(inputText.value);
   const a = inputText.value;
